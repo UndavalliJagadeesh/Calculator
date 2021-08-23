@@ -1,0 +1,113 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+body{
+    
+    background-attachment:fixed;
+    background-image: linear-gradient(top rgb(215, 175, 253),rgb(132, 0, 255));
+    background-image: -moz-linear-gradient(top rgb(215, 175, 253),rgb(87, 20, 150));
+    background-image: -ms-linear-gradient(top rgb(215, 175, 253),rgb(64, 3, 121));
+    background-image: -o-linear-gradient(top rgb(143, 46, 235),rgb(132, 0, 255));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(199, 163, 255)), to(rgb(33, 2, 70)));
+}
+.namefnt{
+    font-family: cursive;
+}
+.namefnt:hover{
+    color: white;
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-left: 15px;
+}
+.calciBody {
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: fit-content;
+  }
+.display {
+    width: 100%;
+    font-size: 3rem;
+    height: 100px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.btn{
+    padding: 25px;
+}
+.num{
+    border-color: black;
+}
+.syb{
+    background-color: transparent;
+    border-color: white;
+    background-color: tomato!important;
+}
+.syb:hover{
+    background-color:rgb(204, 23, 17)!important;
+    color: yellowgreen;
+}
+.num:hover{
+    background-color: turquoise;
+    color: white;
+}
+
+.topRow{
+    margin-top: 5px;
+}
+.lstc{
+    margin-right: 15px;
+}
+.eql{
+    grid-row: 4 / 6;
+    grid-column: 4 / 5;
+}
+
+.eqlb:hover{
+    background-color: rgb(92, 52, 235)!important;
+}
+.eqlb{
+    background-color: rgb(31, 0, 116)!important;
+    border-color: transparent!important;
+    color: wheat;
+}
+.zer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.lrow{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+#ftr{
+    background-color:#0c0550 !important;
+    margin-bottom: 0!important;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    
+}
