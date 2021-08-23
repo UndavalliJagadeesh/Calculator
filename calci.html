@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="CALCI">
+  <meta name="image" content="https://cdn.glitch.com/26ad80a6-5637-4961-acaa-a24bfb41d70b%2Fcalculator%20(1).png?v=1626359202860"/>
+  <meta name="description" content="A basic Calculator website that can perform precise calculations"/>
+  <meta name="url" content="https://itsmycalci.glitch.me/calci.html"/>
+  <meta property="og:title" content="CALCI">
+  <meta property="og:description" content="A basic Calculator website that can perform precise calculations"/>
+  <meta property="og:image" content="https://cdn.glitch.com/26ad80a6-5637-4961-acaa-a24bfb41d70b%2Fcalculator%20(1).png?v=1626359202860"/>
+  <meta property="og:url" content="https://itsmycalci.glitch.me/calci.html"/>
+  
+  
+  
+  <meta name="twitter:card" content="https://cdn.glitch.com/26ad80a6-5637-4961-acaa-a24bfb41d70b%2Fcalculator%20(1).png?v=1626359202860"/>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="calci.css" type="text/css"/>
+    <script src="calci.js"></script>
+    <title>C a l c i</title>
+    <link rel="icon" type="image/png" href="https://cdn.glitch.com/26ad80a6-5637-4961-acaa-a24bfb41d70b%2Flogo.png?v=1626332567515"/>
+    
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand namefnt" href="#">
+                    <img src="https://cdn.glitch.com/26ad80a6-5637-4961-acaa-a24bfb41d70b%2Fnavlogo11.png?v=1626346245371" alt="logo" class="d-inline-block align-text-top">
+                    Calci
+                  </a>
+                </div>
+              </nav>
+             
+        
+    <div class="calciBody">
+        <input type="text" class="display"  id="res">
+        <div class="grids">
+
+            <div class=" btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-info syb topRow colst" id="clear" onclick="clr()"><b> C</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-info syb topRow" id="remov" onclick="rem()"><i class="fi-br-delete"></i></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info syb topRow" id="divi" onclick="onscr('/')"><b><!--&divide;-->/</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info syb topRow lstc" id="multi" onclick="onscr('*')"><b>x</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num  colst" id="seven" onclick="onscr('7')"><b>7</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num" id="eight" onclick="onscr('8')"><b>8</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num" id="nine" onclick="onscr('9')"><b>9</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info syb lstc" id="sub" onclick="onscr('-')"><b>&minus;</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num colst" id="four" onclick="onscr('4')"><b>4</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num" id="five" onclick="onscr('5')"><b>5</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num" id="six" onclick="onscr('6')"><b>6</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info syb lstc" id="add" onclick="onscr('+')"><b>+</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num colst" id="one" onclick="onscr('1')"><b>1</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num" id="two" onclick="onscr('2')"><b>2</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num" id="three" onclick="onscr('3')"><b>3</b></button>
+            </div>
+            <div class=" btn-group eql" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info lstc lrow eqlb" id="ans" onclick="sol()"><b>=</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num lrow" id="zeroo" onclick="onscr('00')"><b>00</b></button>
+            </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-info num lrow" id="zero" onclick="onscr('0')"><b>0</b></button>
+        </div>
+            <div class=" btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info num lrow" id="fract" onclick="onscr('.')"><b>&bull;</b></button>
+            </div>
+        </div>
+    </div>
+    <!--<footer id='ftr'>
+        <div class="container">
+                <span class="text-muted"><h5><center>© 2021, <img src="logo.png" alt="logo"> Calci. &emsp;All Rights Reserved.</center></h5></span>
+        </div>
+        </footer>-->
+</body>
+</html>
