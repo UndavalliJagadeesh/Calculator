@@ -4,4 +4,4 @@ A calculator website created with HTML, CSS and JavaScript which can perform bas
 This calculator can perform calculations on two operands at a time.
 
 
-[![ForTheBadge uses-html](http://FortheBadge.com/images/uses-html.svg)](http://ForTheBadge.com)
+[![HTML](http://ForTheBadge.com/images/uses-html.svg)]()
