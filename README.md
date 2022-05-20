@@ -1,5 +1,5 @@
-# Calculator
-Hey friends 🖐,
+
+# Hey friends 🖐
 
 No person can live without the numbers hanging on his/her throat. 
 It is at that time this piece of code helps you to perform basic calculations.
@@ -13,4 +13,3 @@ This code was written using [![html](https://user-images.githubusercontent.com/8
 ### Can find me here at 
 [![linkedin](https://user-images.githubusercontent.com/84311163/169548532-c5ea6e41-60c3-4c63-ba98-7a297cabce8b.svg)](https://www.linkedin.com/in/jagadeeshundavalli)
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge&&right_color=green) 
