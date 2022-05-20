@@ -4,7 +4,7 @@ No person can live without the numbers hanging on his/her throat. It is at that 
 This calculator can perform calculations on two operands at a time.
 
 
-This code was written in ![html](https://user-images.githubusercontent.com/84311163/169548089-e66ac251-2c4a-48ce-a5a7-043c29db9ef1.svg)() , ![css3](https://user-images.githubusercontent.com/84311163/169548221-7f9d033e-81a9-4a50-a196-fb8a55bc7f9f.svg) and ![js](https://user-images.githubusercontent.com/84311163/169548257-a76ccb5d-a3b7-4f06-8c55-6387f75a0eaa.svg)
+This code was written in [![html](https://user-images.githubusercontent.com/84311163/169548089-e66ac251-2c4a-48ce-a5a7-043c29db9ef1.svg)]() , [![css3](https://user-images.githubusercontent.com/84311163/169548221-7f9d033e-81a9-4a50-a196-fb8a55bc7f9f.svg)]() and [![js](https://user-images.githubusercontent.com/84311163/169548257-a76ccb5d-a3b7-4f06-8c55-6387f75a0eaa.svg)]()
 
 
 
