@@ -8,4 +8,4 @@ This code was written in ![html](https://user-images.githubusercontent.com/84311
 
 
 
-Can find me here at ![linkedin](https://user-images.githubusercontent.com/84311163/169548532-c5ea6e41-60c3-4c63-ba98-7a297cabce8b.svg)(https://www.linkedin.com/in/jagadeeshundavalli/)
+Can find me here at ![https://www.linkedin.com/in/jagadeeshundavalli/](https://user-images.githubusercontent.com/84311163/169548532-c5ea6e41-60c3-4c63-ba98-7a297cabce8b.svg)
